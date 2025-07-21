@@ -1,7 +1,7 @@
 ﻿using DI_TestExample01;
 using static DI_TestExample01.GameManager;
 
-GameManager gm  = new GameManager();
+GameManager gm  = new GameManager(new HumanPlayer(), new ComputerPlayer());
 
 do
 {
